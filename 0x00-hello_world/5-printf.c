@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: prints a quote.
+ * main - prints a quote.
  * Return: 0
  */
 int main(void)
