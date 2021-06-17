@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main: prints a quote.
  * Return: 0
  */

@@ -1,5 +1,5 @@
 #include <unistd.h>
-/*
+/**
  * main: prints a quote.
  * Return: 1
  */
