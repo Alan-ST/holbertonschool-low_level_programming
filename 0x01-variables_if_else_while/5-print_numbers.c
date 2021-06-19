@@ -5,10 +5,13 @@
  */
 int main(void)
 {
-	int n;
+	int i = 0;
+	char base10[] = "0123456789\n";
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
-	printf('\n');
+	while (base10[i] != '\0')
+	{
+		putchar(base10[i]);
+		i++;
+	}
 	return (0);
 }
