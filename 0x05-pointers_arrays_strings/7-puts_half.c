@@ -13,7 +13,7 @@ void puts_half(char *str)
 	if (c % 2 == 1)
 	{
 		v = (c - 1) / 2;
-		v -= d;
+		v -= c;
 	}
 
 	else
