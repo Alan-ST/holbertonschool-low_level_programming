@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * delete_nodeint_at_index - 
+ * delete_nodeint_at_index - deletes the node at index of a list
  * @head: list
  * @index: position
  * Return: nodes
