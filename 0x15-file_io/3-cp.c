@@ -12,8 +12,8 @@ int main(int argc, char **argv)
     char buff[BUFF];
 
     if (argc != 3)
-        dprintf(STDERR_FILENO, "Usage: cp file newfile\n"),
-			exit(97);
+        dprintf(STDERR_FILENO, "Usage: cp file newfile\n");
+		exit(97);
     file = open(argv[1], O_RDONLY);
     if (file == EOF)
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
