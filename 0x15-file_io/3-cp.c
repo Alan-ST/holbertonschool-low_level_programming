@@ -30,7 +30,7 @@ int main(int argc, char **argv)
 	}
 	while ((RD = read(filefrom, buffer, BUFFER)) > 0)
 	{
-		RD = read(filefrom, buffer, BUFFER);
+		/*RD = read(filefrom, buffer, BUFFER);*/
 		WR = write(file_to, buffer, RD);
 	}
 	if (RD == EOF)
