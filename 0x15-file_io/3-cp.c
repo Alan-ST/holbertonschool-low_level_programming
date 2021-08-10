@@ -29,10 +29,7 @@ int main(int argc, char **argv)
 		exit(99);
 	}
 	while ((RD = read(file_from, buffer, BUFFER)) > 0)
-	{
-		/*RD = read(file_from, buffer, BUFFER);*/
 		WR = write(file_to, buffer, RD);
-	}
 	if (RD == EOF)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
