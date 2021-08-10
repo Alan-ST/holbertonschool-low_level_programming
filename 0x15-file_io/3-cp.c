@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - copies the content of a file to another file
@@ -29,7 +28,7 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
-	while (RD == BUFFER)
+	while (RD = read(filefrom, buffer, BUFFER) > 0)
 	{
 		RD = read(file_from, buffer, BUFFER);
 		WR = write(file_to, buffer, RD);
