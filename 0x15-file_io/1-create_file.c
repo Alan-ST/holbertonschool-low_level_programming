@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * create_file - 
+ * create_file -  creates a file
  * @filename: file
  * @text_content: text
  * Return: 1 or -1
@@ -25,4 +25,4 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	close(OP);
 	return (1);
-}
+i}
