@@ -28,11 +28,8 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
-	while (RD = read(filefrom, buffer, BUFFER) > 0)
-	{
-		RD = read(file_from, buffer, BUFFER);
+	while ((RD = read(filefrom, buffer, BUFFER)) > 0)
 		WR = write(file_to, buffer, RD);
-	}
 	if (RD == EOF)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
