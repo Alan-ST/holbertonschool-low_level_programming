@@ -9,7 +9,7 @@ int main(int argc, char **argv)
 {
 	int file_from, file_to;
 	ssize_t RD, WR;
-	char buffer[BUFF];
+	char buffer[BUFFER];
 
 	if (argc != 3)
 	{
@@ -28,9 +28,9 @@ int main(int argc, char **argv)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
-	while (RD == BUFF)
+	while (RD == BUFFER)
 	{
-		RD = read(file_from, buffer, BUFF);
+		RD = read(file_from, buffer, BUFFER);
 		WR = write(file_to, buffer, RD);
 	}
 	if (RD == EOF)
