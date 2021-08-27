@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_memset - main function
+ * _memset - main function
  * @s: string
  * @b: byte
  * @n: num

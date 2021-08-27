@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_strcat - main function
+ * _strcat - main function
  * @src: source
  * @dest: destiny
  * Return: The pointer to destination buffer.

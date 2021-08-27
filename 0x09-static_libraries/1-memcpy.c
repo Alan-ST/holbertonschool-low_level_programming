@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * *_memcpy - main function
+ * _memcpy - main function
  * @dest: destiny
  * @src: source
  * @n: num
- * Return: A pointer to dest.
+ * Return: dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
